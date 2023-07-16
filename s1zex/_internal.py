@@ -41,7 +41,7 @@ def restart():
         print(
             "Got in a loop, exiting\nYou probably need to manually remove existing"
             " packages and then restart s1zex. Run `pip uninstall -y telethon"
-            "telethon, pyrogram"
+            "telethon-mod hikka-tl pyrogram hikka-pyro`, then restart s1zex."
         )
         sys.exit(0)
 
