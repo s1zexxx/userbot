@@ -1,0 +1,16 @@
+version: "6"
+services:
+  worker:
+    container_name: "s1zex-worker"
+    build:
+      context: .
+    volumes:
+      - worker:/data
+    stop_signal: SIGINT
+    restart: unless-stopped
+    command: "python -m s1zex"
+    ports:
+      - "${EXTERNAL_PORT:-8080}:8080"
+
+volumes:
+  worker:
