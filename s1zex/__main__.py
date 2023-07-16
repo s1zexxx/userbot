@@ -61,6 +61,7 @@ else:
                     "-q",
                     "--disable-pip-version-check",
                     "--no-warn-script-location",
+                    "hikka-tl",
                 ],
                 check=True,
             )
@@ -85,6 +86,7 @@ else:
                     "-q",
                     "--disable-pip-version-check",
                     "--no-warn-script-location",
+                    "hikka-pyro",
                 ],
                 check=True,
             )
