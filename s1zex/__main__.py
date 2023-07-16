@@ -61,9 +61,7 @@ else:
                     "-q",
                     "--disable-pip-version-check",
                     "--no-warn-script-location",
-                    "requirements.txt",
-                    "-r",
-                    "--upgrade",
+                    "s1zex-tL",
                 ],
                 check=True,
             )
@@ -88,9 +86,7 @@ else:
                     "-q",
                     "--disable-pip-version-check",
                     "--no-warn-script-location",
-                    "requirements.txt",
-                    "-r",
-                    "--upgrade",
+                    "s1zex-pyro",
                 ],
                 check=True,
             )
