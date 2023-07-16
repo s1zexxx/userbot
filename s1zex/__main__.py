@@ -61,7 +61,6 @@ else:
                     "-q",
                     "--disable-pip-version-check",
                     "--no-warn-script-location",
-                    "s1zex-tL",
                 ],
                 check=True,
             )
@@ -86,7 +85,6 @@ else:
                     "-q",
                     "--disable-pip-version-check",
                     "--no-warn-script-location",
-                    "s1zex-pyro",
                 ],
                 check=True,
             )
